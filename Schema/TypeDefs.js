@@ -10,7 +10,7 @@ const typeDefs = gql`
   # Note : here u can use the custom types above which u have defined
   # Queries
   type Query {
-    getAllAnimes: [Anime!]!
+    getAllAnimes: [An
     getAnimeById(id: Int!): [Anime!]!
     getAnimeByName(name: String!): [Anime!]!
   }
